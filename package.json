@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "push": "rollup -cw --environment DEST:main",
+    "local": "rollup -cw --environment DEST:local",
+    "build": "rollup -cw",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.2.1",
+    "@types/lodash": "^3.10.1",
+    "@types/screeps": "^3.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "rollup": "^2.71.1",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-screeps": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "source-map": "^0.6.1"
+  }
+}
